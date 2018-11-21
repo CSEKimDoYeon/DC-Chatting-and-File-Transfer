@@ -1,0 +1,216 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ipc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\apple.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CFT 정보"
+FONT 9, "굴림", 0, 0, 0x0
+BEGIN
+END
+
+IDD_IPC_DIALOG DIALOGEX 0, 0, 350, 227
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Chatting File Transfer Client using the CFT"
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Source",IDC_STATIC,220,7,118,95
+    GROUPBOX        "Destination",IDC_STATIC,223,104,115,75
+    GROUPBOX        "Chatting",IDC_STATIC,7,7,207,154
+    GROUPBOX        "File Transfer",IDC_STATIC,7,164,207,60
+    EDITTEXT        IDC_EDIT_SRC,230,49,100,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DST,230,130,100,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MSG,11,139,162,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FilePath,11,178,162,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "설정(&O)",IDC_BUTTON_ADDR,291,204,47,16
+    PUSHBUTTON      "Send(&S)",IDC_BUTTON_SEND,176,139,33,16
+    PUSHBUTTON      "File(&Q)",IDC_BUTTON_FILE,176,178,33,16
+    PUSHBUTTON      "Send(&F)",IDC_BUTTON_FILESEND,176,200,33,16
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,220,7,1,213
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,11,200,162,16
+    LISTBOX         IDC_LIST_CHAT,11,17,198,115,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Ethernet Address",IDC_STATIC,230,34,84,14,SS_CENTERIMAGE
+    LTEXT           "Ethernet Address",IDC_STATIC,230,115,84,14,SS_CENTERIMAGE
+    LTEXT           "IPADDRESS",IDC_STATIC,230,148,39,8
+    LTEXT           "IPADDRESS",IDC_STATIC,230,67,39,8
+    COMBOBOX        IDC_COMBO_ENETADDR,230,19,100,68,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_EDIT_SRCIP,"SysIPAddress32",WS_TABSTOP,230,79,100,15
+    CONTROL         "",IDC_EDIT_DSTIP,"SysIPAddress32",WS_TABSTOP,230,159,100,15
+    //CONTROL         "Broadcast Mode",IDC_CHECK_TOALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,254,188,84,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "FileDescription", "CFT MFC 응용 프로그램"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "cft"
+            VALUE "LegalCopyright", "Copyright (C) 2002"
+            VALUE "OriginalFilename", "cft.EXE"
+            VALUE "ProductName", "cft 응용 프로그램"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_IPC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        VERTGUIDE, 214
+        VERTGUIDE, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "cft 정보(&A)..."
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ipc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,53 @@
+﻿  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  TCPLayer.cpp
+  NILayer.cpp
+  LayerManager.cpp
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\layermanager.cpp(66): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\layermanager.cpp(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 'strcpy' 선언을 참조하십시오.
+  IPLayer.cpp
+  IPCAppDlg.cpp
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 5의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 6의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(237): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 5의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): warning C4477: 'sscanf' : 서식 문자열 '%02x'에 'unsigned int *' 형식의 인수가 필요하지만 variadic 인수 6의 형식이 'unsigned char *'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): note: 서식 문자열에서 '%hhx'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\ipcappdlg.cpp(238): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+  ipc.cpp
+  FileAppLayer.cpp
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\fileapplayer.cpp(132): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\fileapplayer.cpp(297): warning C4244: '인수': 'unsigned long'에서 'unsigned short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\fileapplayer.cpp(307): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EthernetLayer.cpp
+  ChatAppLayer.cpp
+c:\users\김도연\desktop\3-1학기\데통\02주차\5조\5조app_source\chatapplayer.cpp(72): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(265): note: 'strncat' 선언을 참조하십시오.
+  BaseLayer.cpp
+  코드를 생성하고 있습니다...
+  LINK : .\Debug\ipc.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+BaseLayer.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  ipc.vcxproj -> C:\Users\김도연\Desktop\3-1학기\데통\02주차\5조\5조App_source\.\Debug\ipc.exe
